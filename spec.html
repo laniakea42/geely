@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Спецпредложения</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css/vendor/fancybox.css">
+    <link rel="stylesheet" href="css/vendor/jq-ui.css">
+    <link rel="stylesheet" href="css/vendor/select2.css">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex center spb">
+            <svg class="ham hamRotate ham4 nav--btn" viewBox="0 0 100 100" width="80"
+                onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+
+            <a href="index.html" class="logolink"><img src="./img/logo.svg" alt="" class="logo"></a>
+
+            <div class="header__address hideonmobile">г. Москва, ул. Обручева, 21А</div>
+
+            <nav class="nav">
+                <a href="models.html">Модели</a>
+                <a href="credit.html">Кредит</a>
+                <a href="gos.html">Госпрограммы</a>
+                <a href="tradein.html">Trade-in</a>
+                <a href="spec.html">Спецпредложения</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <a href="#modal__backcall" class="btn btn--gray header__topbtn" data-fancybox>Обратный звонок</a>
+
+            <div class="header__phone">
+                <div>+7 (495) 119-75-33</div>
+                <div class="header__phonesm">Ежедневно с 8:00 до 20:00</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="modal__backcall" style="display: none;" class="modal">
+        <h3 class="modal__title">Обратный звонок</h3>
+        <form action="" class="modal__form">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="Телефон">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <div class="wrapper page specpage graybg">
+        <section class="">
+            <div class="container">
+                <h1>Спецпредложения</h1>
+
+                <form action="" method="post">
+                    <div class="specgrid">
+                        <div class="specgrid__col">
+                            <div class="specgrid__colname">Двигатель</div>
+                            <div class="specgrid__checkrow">
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    2.0 л. 6MКП (139 л.с) FWD <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="specgrid__col">
+                            <div class="specgrid__colname">Комплектация </div>
+                            <div class="specgrid__checkrow">
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    Comfort <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    Flagship <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    Luxury <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    Flagship + <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="specgrid__col">
+                            <div class="specgrid__colname">Цвет кузова</div>
+                            <div class="specgrid__colorsrow">
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="specgrid__col">
+                            <div class="specgrid__colname">Стоимость, руб.</div>
+
+                            <div class="secgrid__range">
+                                <div id="slider-range"
+                                    class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header"
+                                        style="left: 38.2%; width: 26.6%;"></div><span tabindex="0"
+                                        class="ui-slider-handle ui-corner-all ui-state-default"
+                                        style="left: 38.2%;"></span><span tabindex="0"
+                                        class="ui-slider-handle ui-corner-all ui-state-default"
+                                        style="left: 64.8%;"></span>
+                                </div>
+                                <input type="text" id="amount" readonly style="border:0; font-family: inherit; font-size: 1.1rem;">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="model__grid">
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="modelcard">
+                        <img src="./img/m.jpg" alt="" class="modelcard__pic">
+                        <div class="modelcard__desc">
+                            <div class="modelcard__namerow">
+                                <div class="modelcard__name">Geely Coolray </div>
+                                <div class="modelcard__complect"> 1.2 л. 4АКП (84 л.с) FWD</div>
+                            </div>
+
+                            <div class="modelcard__frst">Первый взнос 0%</div>
+                            <div class="modelcard__oldprice">от 635 900 &#8381;</div>
+                            <div class="modelcard__pricerow">
+                                <div class="modelcard__newprice">от 1 128 000 &#8381;</div>
+                                <div class="modelcard__credit">Кредит от 7 930 &#8381;/мес.</div>
+                            </div>
+
+                            <div class="modelcard__btns">
+                                <button class="btn btn--blue">В кредит</button>
+                                <button class="btn btn--gray">Trade-in</button>
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+            </div> 
+
+        </section>
+
+        <section class="banner__section">
+            <div class="container">
+                <div class="banner">
+                    <h2 class="banner__title">ЭКСПРЕСС-КРЕДИТ</h2>
+                    <div class="banner__body">
+                        <div class="banner__leftpart">
+                            <div class="banner__molrow">
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Ставка от 1,3%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Взнос от 0%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Рассмотрение за 20мин.</div>
+                                </div>
+                            </div>
+
+                            <form action="" method="post" class="banner__form">
+                                <input type="text" placeholder="Имя">
+                                <input type="tel" placeholder="+7 (___) ___-__-__">
+                                <button class="btn" type="submit">Получить одобрение</button>
+                            </form>
+                        </div>
+                        <div class="banner__rightpart">
+                            <div class="imgc">
+                                <img src="./img/car2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagebottom">
+            <div class="container">
+                <div class="pagebottom__flex">
+                    <div class="pagebottom__left">
+                        <div class="pagebottom__title">ЕСЛИ У ВАС ОСТАЛИСЬ ВОПРОСЫ?</div>
+                        <div class="pagebottom__sub">Наши менеджеры с радостью помогут Вам.</div>
+                    </div>
+
+                    <form action="" method="post" class="pagebottom__form">
+                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                        <button class="btn btn--white">ПЕРЕЗВОНИТЕ МНЕ</button>
+                    </form>
+                    <img src="./img/girl.png" alt="" class="pagebottom__girl">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="flex spb">
+                    <img src="./img/logo2.svg" alt="" class="footer__logo">
+
+                    <div class="footer__nav">
+                        <a href="models.html">Модели</a>
+                        <a href="credit.html">Кредит</a>
+                        <a href="gos.html">Госпрограммы</a>
+                        <a href="tradein.html">Trade-in</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+
+                    <a href="#modal__backcall" class="btn footer__callbtn" data-fancybox>Обратный звонок</a>
+                    <a href="tel:+74951197533" class="footer__phone">
+                        <div>+7 (495) 119-75-33</div>
+                        <div class="footer__phonesm">Ежедневно с 8:00 до 20:00</div>
+                    </a>
+                </div>
+            </div>  
+            <div class="footer__bottom">
+                <div class="flex spb">
+                    <div class="footer__geelyrow">
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                    </div>
+
+                    <div class="footer__address">г. Москва, ул. Обручева, 21А</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.fancybox.min.js"></script>
+    <script src="js/vendor/select2.js"></script>
+    <script src="js/vendor/swiper.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>

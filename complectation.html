@@ -1,0 +1,2180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Atlas Pro</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css/vendor/fancybox.css">
+    <link rel="stylesheet" href="css/vendor/jq-ui.css">
+    <link rel="stylesheet" href="css/vendor/select2.css">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header header__transparent">
+        <div class="container flex center spb">
+            <svg class="ham hamRotate ham4 nav--btn ham--white" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+
+            <a href="index.html" class="logolink"><img src="./img/logo.svg" alt="" class="logo"></a>
+            <a href="index.html" class="logolink__dark"><img src="./img/logo2.svg" alt="" class="logo"></a>
+
+            <div class="header__address hideonmobile">г. Москва, ул. Обручева, 21А</div>
+
+            <nav class="nav">
+                <a href="models.html">Модели</a>
+                <a href="credit.html">Кредит</a>
+                <a href="gos.html">Госпрограммы</a>
+                <a href="tradein.html">Trade-in</a>
+                <a href="spec.html">Спецпредложения</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <a href="#modal__backcall" class="btn btn--gray header__topbtn" data-fancybox>Обратный звонок</a>
+
+            <div class="header__phone">
+                <div>+7 (495) 119-75-33</div>
+                <div class="header__phonesm">Ежедневно с 8:00 до 20:00</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="modal__backcall" style="display: none;" class="modal">
+        <h3>Заголовок поп-апа</h3>
+        <form action="" class="banner__form">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="Телефон">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <div class="wrapper graybg">
+
+        <section class="indexslide indexslide__compsection">
+            <div class="container">
+                <div class="indexslide__complectation">
+                    <div class="lcol">
+                        <h1 class="indexslide__complectationh1">
+                            НОВЫЙ ATLAS PRO
+                        </h1>
+                        <div class="indexslide__spec">
+                            Спецпредложение до <span style="color: #0067B2">до 28 ноября</span>
+                        </div>
+                        <div class="indexslide__oldprice">от 1 379 000 руб.</div>
+                        <div class="indexslide__newprice">от 980 000 руб.</div>
+                        <div class="indexslide__credit">В кредит от <span style="color: #0067B2">6 500</span> руб./месяц</div>
+                    </div>
+                    <div class="midcol">
+                        <img src="./img/vy.png" alt="">
+                    </div>
+                    <div class="rcol">
+                        <div class="indexslide__finance">
+                            Geely <span style="color: #0067B2">Finance</span>
+                        </div>
+                        <div class="indexslide__spec">Выгода по акции <span style="color: #0067B2">429 000</span> рублей!</div>
+                        <form action="" method="post">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="+7 (___) ___-__-__">
+                            <button class="btn" type="submit">Отправить заявку</button>
+                        </form>
+                    </div>
+
+
+                </div>
+                <div class="indexslide__bottomrow">
+                    <div class="complectation__colors">
+                        <div>Доступные цвета</div>
+                        <div class="complectation__circles">
+                            <div class="circles circles__gray"></div>
+                            <div class="circles circles__black"></div>
+                            <div class="circles circles__blue"></div>
+                            <div class="circles circles__orange"></div>
+                            <div class="circles circles__yellow"></div>
+                        </div>
+                    </div>
+                    <div class="modelcontent__bottomrow">
+                        <div class="modelcontent__media">
+                            <img src="./img/q1.svg" alt="">
+                            <div class="modelcontent__text">
+                                <div class="modelcontent__lg">
+                                    185 км/ч
+                                </div>
+                                <div class="modelcontent__sm">
+                                    Максимальная скорость
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modelcontent__media">
+                            <img src="./img/q2.svg" alt="">
+                            <div class="modelcontent__text">
+                                <div class="modelcontent__lg">
+                                    133 л.с.
+                                </div>
+                                <div class="modelcontent__sm">
+                                    Максимальная мощность двигателя
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modelcontent__media">
+                            <img src="./img/q3.svg" alt="">
+                            <div class="modelcontent__text">
+                                <div class="modelcontent__lg">
+                                    6,4 л/100км
+                                </div>
+                                <div class="modelcontent__sm">
+                                    Средний расход топлива
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modelcontent__media">
+                            <img src="./img/q4.svg" alt="">
+                            <div class="modelcontent__text">
+                                <div class="modelcontent__lg">
+                                    9.9 с
+                                </div>
+                                <div class="modelcontent__sm">
+                                    Разгона до 100 км/ч
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="actions__row">
+                <a href="#" class="actions__item actions__item--short">
+                    <img src="./img/a1.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Скидка 10%</div>
+                        <div class="actions__sub">по госпрограммам</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--short">
+                    <img src="./img/a2.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Комплект шин</div>
+                        <div class="actions__sub">при покупке в подарок</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--short">
+                    <img src="./img/a3.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Кредит от 0%</div>
+                        <div class="actions__sub">на автомобили GEElY</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--short">
+                    <img src="./img/a4.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Выгодный Trade-in</div>
+                        <div class="actions__sub">со скидкой до 150 000 руб</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="overflow">
+            <div class="container">
+                <div class="tab__headingsrow">
+                    <div id="tab1" class="tab__heading active">Доступные комплектации для ATLAS PRO</div>
+                    <div id="tab2" class="tab__heading">Характеристики</div>
+                    <div id="tab3" class="tab__heading">Галерея</div>
+                </div>
+
+                <div id="tab1body" class="tab__body active">
+                    <form action="" method="post">
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button class="btn" type="submit">Сравнить</button>
+                    </form>
+                </div>
+
+                <div id="tab2body" class="tab__body">
+                    <form action="" method="post">
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button class="btn" type="submit">Сравнить</button>
+                    </form>
+                </div>
+
+                <div id="tab3body" class="tab__body">
+                    <form action="" method="post">
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="tab__row">
+                            <div class="tab__rowtitle">1.5 л. 5МКП (106 л.с) FWD</div>
+                            <div class="tab__action">Акция до 20 октября</div>
+                        </div>
+
+                        <div class="tab__tablecont">
+                            <table class="tab__table">
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="custom-label custom-label__check-tab">
+                                            <input type="checkbox" name="name1" value="etc5" class="custom-checkbox"> 
+                                            <span class="checkmark"></span> 
+                                        </label>
+                                    </td>
+
+                                    <td class="tab__carname tab__trigger tab__triggername">2.0L-6MT Standart</td>
+
+                                    <td class="tab__oldprice">от 1 099 000 руб</td>
+                                    <td class="tab__newprice tab__trigger tab__triggerprice">от 729 000 руб</td>
+
+                                    <td class="tab__credirprice">10 840 ₽/мес</td>
+                                    <td><button class="btn btn--bordered">Купить в кредит</button></td>
+                                    <td class="btntd"><button class="btn">Trade-in</button></td>
+                                </tr>
+
+                                <tr class="subrow">
+                                    <td class="tab__additional tab__additionalname" colspan="7">
+                                        <div class="grid2">
+                                            <div class="lcol">
+                                                <div class="tabcarname__title">Безопасность</div>
+                                                <ul>
+                                                    <li>- Антиблокировочная система тормозов (ABS)</li>
+                                                    <li>- Иммобилайзер</li>
+                                                    <li>- Преднатяжители передних ремней безопасности</li>
+                                                    <li>- Фронтальные подушки безопасности водителя и переднего пассажира</li>
+                                                    <li>- ESP (электронная система стабилизации курсовой устойчивости)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Экстерьер</div>
+                                                <ul>
+                                                    <li>- Дополнительный стоп-сигнал</li>
+                                                    <li>- Передние противотуманные фары</li>
+                                                    <li>- Фары проекционного типа со статичной подсветкой поворотов</li>
+                                                    <li>- Передние и задние дисковые тормоза</li>
+                                                    <li>- Подогрев топливного фильтра</li>
+                                                    <li>- Полноразмерное запасное колесо</li>
+                                                    <li>- Сдвижные боковые двери с двух сторон</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Комфорт</div>
+                                                <ul>
+                                                    <li>- Кондиционер</li>
+                                                    <li>- Отдельный кондиционер для пассажиров 3-го ряда</li>
+                                                    <li>- Передние электростеклоподъемники</li>
+                                                    <li>- Подогрев передних сидений</li>
+                                                    <li>- Подогрев руля</li>
+                                                    <li>- Регулировка рулевой колонки по высоте и вылету</li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="rcol">
+                                                <ul>
+                                                    <li>- Регулировка сиденья водителя по высоте</li>
+                                                    <li>- Управление аудиосистемой на руле</li>
+                                                    <li>- Электропривод и подогрев наружных зеркал</li>
+                                                    <li>- Аккумуляторная батарея повышенной емкости</li>
+                                                    <li>- Гидроусилитель руля</li>
+                                                    <li>- Пульт управления центральным замком в ключе + сигнализация</li>
+                                                    <li>- Система "ЭРА-ГЛОНАСС"</li>
+                                                    <li>- Bluetooth для подключения мобильного телефона к аудиосистеме, громкая связь Hands Free</li>
+                                                    <li>- Разъемы USB, AUX</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Интерьер</div>
+                                                <ul>
+                                                    <li>- Воздушный фильтр салона</li>
+                                                    <li>- Датчик света</li>
+                                                    <li>- Плафон освещения в задней части салона</li>
+                                                    <li>- Тканевая обивка сидений</li>
+                                                    <li>- Отделка руля и рукоятки КПП кожей</li>
+                                                    <li>- Ручка на передней левой стойке в салоне</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Аудио</div>
+                                                <ul>
+                                                    <li>- Аудиосистема (Радио / MP3 / 6 динамиков)</li>
+                                                </ul>
+
+                                                <div class="tabcarname__title">Опции</div>
+                                                <ul>
+                                                    <li>- Дополнительный отопитель салона</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tab__additional tab__additionalprice" colspan="7">
+                                        Pricing content
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <button class="btn" type="submit">Сравнить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="banner__section">
+            <div class="container">
+                <div class="banner">
+                    <h2 class="banner__title">ЭКСПРЕСС-КРЕДИТ</h2>
+                    <div class="banner__body">
+                        <div class="banner__leftpart">
+                            <div class="banner__molrow">
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Ставка от 1,3%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Взнос от 0%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Рассмотрение за 20мин.</div>
+                                </div>
+                            </div>
+
+                            <form action="" method="post" class="banner__form">
+                                <input type="text" placeholder="Имя">
+                                <input type="tel" placeholder="+7 (___) ___-__-__">
+                                <button class="btn" type="submit">Получить одобрение</button>
+                            </form>
+                        </div>
+                        <div class="banner__rightpart">
+                            <div class="imgc">
+                                <img src="./img/car2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagebottom">
+            <div class="container">
+                <div class="pagebottom__flex">
+                    <div class="pagebottom__left">
+                        <div class="pagebottom__title">ЕСЛИ У ВАС ОСТАЛИСЬ ВОПРОСЫ?</div>
+                        <div class="pagebottom__sub">Наши менеджеры с радостью помогут Вам.</div>
+                    </div>
+
+                    <form action="" method="post" class="pagebottom__form">
+                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                        <button class="btn btn--white">ПЕРЕЗВОНИТЕ МНЕ</button>
+                    </form>
+                    <img src="./img/girl.png" alt="" class="pagebottom__girl">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="flex spb">
+                    <img src="./img/logo2.svg" alt="" class="footer__logo">
+
+                    <div class="footer__nav">
+                        <a href="models.html">Модели</a>
+                        <a href="credit.html">Кредит</a>
+                        <a href="gos.html">Госпрограммы</a>
+                        <a href="tradein.html">Trade-in</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+
+                    <a href="#modal__backcall" class="btn footer__callbtn" data-fancybox>Обратный звонок</a>
+                    <a href="tel:+74951197533" class="footer__phone">
+                        <div>+7 (495) 119-75-33</div>
+                        <div class="footer__phonesm">Ежедневно с 8:00 до 20:00</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="flex spb">
+                    <div class="footer__geelyrow">
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                    </div>
+
+                    <div class="footer__address">г. Москва, ул. Обручева, 21А</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.fancybox.min.js"></script>
+    <script src="js/vendor/select2.js"></script>
+    <script src="js/vendor/swiper.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>

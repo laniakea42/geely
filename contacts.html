@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Credit</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css/vendor/fancybox.css">
+    <link rel="stylesheet" href="css/vendor/jq-ui.css">
+    <link rel="stylesheet" href="css/vendor/select2.css">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header header__transparent">
+        <div class="container flex center spb">
+            <svg class="ham hamRotate ham4 nav--btn ham--white" viewBox="0 0 100 100" width="80"
+                onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+
+            <a href="index.html" class="logolink"><img src="./img/logo.svg" alt="" class="logo"></a>
+            <a href="index.html" class="logolink__dark"><img src="./img/logo2.svg" alt="" class="logo"></a>
+
+            <div class="header__address hideonmobile">г. Москва, ул. Обручева, 21А</div>
+
+            <nav class="nav">
+                <a href="models.html">Модели</a>
+                <a href="credit.html">Кредит</a>
+                <a href="gos.html">Госпрограммы</a>
+                <a href="tradein.html">Trade-in</a>
+                <a href="spec.html">Спецпредложения</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <a href="#modal__backcall" class="btn btn--gray header__topbtn" data-fancybox>Обратный звонок</a>
+
+            <div class="header__phone">
+                <div>+7 (495) 119-75-33</div>
+                <div class="header__phonesm">Ежедневно с 8:00 до 20:00</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="modal__backcall" style="display: none;" class="modal">
+        <h3 class="modal__title">Обратный звонок</h3>
+        <form action="" class="modal__form">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="Телефон">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <div class="wrapper page graybg">
+
+        <section class="indexslide indexslide__totop credislide">
+            <img src="./img/cts.jpg" class="topcenteredpic" alt="">
+            <h1 class="creditslide__textcontent">Контакты</h1>   
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="cts__flex">
+                    <div class="cts__unit">
+                        <div class="cts__sm">Адрес:</div> 
+                        <div>Москва, Новоясеневский проспект, 3А стр.1</div>
+                    </div>
+
+                    <div class="cts__unit">
+                        <div class="cts__sm">Часы работы:</div> 
+                        <div>Ежедневно с 8 до 20, без выходных</div>
+                    </div>
+
+                    <div class="cts__unit">
+                        <div class="cts__sm">Телефоны:</div> 
+                        <div><a href="tel:+74951197533">+7 (495) 119-75-33</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map__sec">
+            <img src="./img/map.jpg" alt="" class="map__bg">
+            <div class="container">
+                <form action="" class="map__form" method="post">
+                    <h3>Служба контроля качества</h3>
+                    <input type="text" placeholder="Имя">
+                    <input type="tel" placeholder="+7 (___) ___-__-__">
+                    <button class="btn" type="submit">Оставить отзыв</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="pagebottom">
+            <div class="container">
+                <div class="pagebottom__flex">
+                    <div class="pagebottom__left">
+                        <div class="pagebottom__title">ЕСЛИ У ВАС ОСТАЛИСЬ ВОПРОСЫ?</div>
+                        <div class="pagebottom__sub">Наши менеджеры с радостью помогут Вам.</div>
+                    </div>
+
+                    <form action="" method="post" class="pagebottom__form">
+                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                        <button class="btn btn--white">ПЕРЕЗВОНИТЕ МНЕ</button>
+                    </form>
+                    <img src="./img/girl.png" alt="" class="pagebottom__girl">
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="flex spb">
+                    <img src="./img/logo2.svg" alt="" class="footer__logo">
+
+                    <div class="footer__nav">
+                        <a href="models.html">Модели</a>
+                        <a href="credit.html">Кредит</a>
+                        <a href="gos.html">Госпрограммы</a>
+                        <a href="tradein.html">Trade-in</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+
+                    <a href="#modal__backcall" class="btn footer__callbtn" data-fancybox>Обратный звонок</a>
+                    <a href="tel:+74951197533" class="footer__phone">
+                        <div>+7 (495) 119-75-33</div>
+                        <div class="footer__phonesm">Ежедневно с 8:00 до 20:00</div>
+                    </a>
+                </div>
+            </div>  
+            <div class="footer__bottom">
+                <div class="flex spb">
+                    <div class="footer__geelyrow">
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                    </div>
+
+                    <div class="footer__address">г. Москва, ул. Обручева, 21А</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.fancybox.min.js"></script>
+    <script src="js/vendor/select2.js"></script>
+    <script src="js/vendor/swiper.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>

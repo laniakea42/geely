@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.971" height="67.867" viewBox="0 0 47.971 67.867">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_45" data-name="Прямоугольник 45" width="47.971" height="67.867" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Контур_256" data-name="Контур 256" d="M47.971,0,0,41.18H23.193L2.611,67.867l41.983-35.2-22.1-.6Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1" x2="0.01" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0067b2"/>
+      <stop offset="0.086" stop-color="#0067b2"/>
+      <stop offset="0.681" stop-color="#007ed9"/>
+      <stop offset="1" stop-color="#007ed9"/>
+    </linearGradient>
+  </defs>
+  <g id="Сгруппировать_67" data-name="Сгруппировать 67" clip-path="url(#clip-path)">
+    <g id="Сгруппировать_66" data-name="Сгруппировать 66">
+      <g id="Сгруппировать_65" data-name="Сгруппировать 65" clip-path="url(#clip-path)">
+        <g id="Сгруппировать_64" data-name="Сгруппировать 64" style="mix-blend-mode: screen;isolation: isolate">
+          <g id="Сгруппировать_63" data-name="Сгруппировать 63">
+            <g id="Сгруппировать_62" data-name="Сгруппировать 62" clip-path="url(#clip-path)">
+              <g id="Сгруппировать_61" data-name="Сгруппировать 61">
+                <g id="Сгруппировать_60" data-name="Сгруппировать 60" clip-path="url(#clip-path-4)">
+                  <rect id="Прямоугольник_42" data-name="Прямоугольник 42" width="47.971" height="67.867" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

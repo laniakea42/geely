@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Atlas Pro</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="css/vendor/fancybox.css">
+    <link rel="stylesheet" href="css/vendor/jq-ui.css">
+    <link rel="stylesheet" href="css/vendor/select2.css">
+    <link rel="stylesheet" href="css/vendor/swiper.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header class="header header__transparent">
+        <div class="container flex center spb">
+            <svg class="ham hamRotate ham4 nav--btn ham--white" viewBox="0 0 100 100" width="80"
+                onclick="this.classList.toggle('active')">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+
+            <a href="index.html" class="logolink"><img src="./img/logo.svg" alt="" class="logo"></a>
+            <a href="index.html" class="logolink__dark"><img src="./img/logo2.svg" alt="" class="logo"></a>
+
+            <div class="header__address hideonmobile">г. Москва, ул. Обручева, 21А</div>
+
+            <nav class="nav">
+                <a href="models.html">Модели</a>
+                <a href="credit.html">Кредит</a>
+                <a href="gos.html">Госпрограммы</a>
+                <a href="tradein.html">Trade-in</a>
+                <a href="spec.html">Спецпредложения</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+
+            <a href="#modal__backcall" class="btn btn--gray header__topbtn" data-fancybox>Обратный звонок</a>
+
+            <div class="header__phone">
+                <div>+7 (495) 119-75-33</div>
+                <div class="header__phonesm">Ежедневно с 8:00 до 20:00</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="modal__backcall" style="display: none;" class="modal">
+        <h3 class="modal__title">Обратный звонок</h3>
+        <form action="" class="modal__form">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="tel" name="phone" placeholder="Телефон">
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+
+    <div class="wrapper page graybg">
+
+        <section class="indexslide indexslide__totop">
+            <img src="./img/bgg.jpg" class="topcenteredpic" alt="Переходи на PRO с выгодой до 150 000руб.">
+
+            <div class="indexslide__modelcontent">
+                <h1 class="modelcontent__modeltitle">НОВЫЙ ATLAS PRO</h1>
+                <div class="modelcontent__bottomrow">
+                    <div class="modelcontent__media">
+                        <img src="./img/e1.svg" alt="">
+                        <div class="modelcontent__text">
+                            <div class="modelcontent__lg">
+                                185 км/ч
+                            </div>
+                            <div class="modelcontent__sm">
+                                Максимальная скорость
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modelcontent__media">
+                        <img src="./img/e2.svg" alt="">
+                        <div class="modelcontent__text">
+                            <div class="modelcontent__lg">
+                                133 л.с.
+                            </div>
+                            <div class="modelcontent__sm">
+                                Максимальная мощность двигателя
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modelcontent__media">
+                        <img src="./img/e3.svg" alt="">
+                        <div class="modelcontent__text">
+                            <div class="modelcontent__lg">
+                                6,4 л/100км
+                            </div>
+                            <div class="modelcontent__sm">
+                                Средний расход топлива
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="filterblock">
+                    <div class="lcol">
+                        <div class="filterblock__unit">
+                            <div class="specgrid__colname">Двигатель</div>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                2.0 л. 6MКП (139 л.с) FWD <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                2.4 л. 6АКП (149 л.с) FWD <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="filterblock__unit">
+                            <div class="specgrid__colname">Комплектация </div>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                Comfort <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                Flagship <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                Luxury <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-label custom-label__check-square">
+                                <input type="checkbox" value="" class="custom-checkbox">
+                                Flagship + <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="filterblock__unit">
+                            <div class="specgrid__colname">Цвет кузова</div>
+                            <div class="specgrid__colorsrow">
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-label custom-label__check-square colorcheck">
+                                    <input type="checkbox" value="" class="custom-checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="filterblock__unit">
+                            <div class="specgrid__colname">Стоимость, руб.</div>
+
+                            <div class="secgrid__range">
+                                <div id="slider-range" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header"></div>
+                                    <span tabindex="0"class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                                    <span tabindex="0"class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                                </div>
+                                <input type="text" id="amount" readonly style="border:0; font-family: inherit; font-size: 1.1rem;">
+                            </div>
+
+                            <button class="btn w100" type="submit">Получить одобрение</button>
+
+                        </div>
+                    </div>
+                        
+                    <div class="rcol">
+                        <h2>Автомобили Geely в наличии</h2>
+                        <div class="filterblock__subgrid">
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                            <div class="vertcard">
+                                <div class="vertcard__title">ATLAS PRO COMFORT</div> 
+                                <div class="vertcard__sm">2.0 л. 6MКП (139 л.с) FWD</div>
+                                <img src="./img/vy.png" alt="" class="vertcard__pic">
+                                <div class="vertcard__plashka">Выгода до 350 000 руб.</div>
+                                <div class="vertcard__oldprice vertcard__sm">от 1 378 500 руб.</div>
+                                <div class="vertcard__pricerow">
+                                    <div class="vertcard__newprice">от 928 500 руб.</div>
+                                    <div class="vertcard__credit">10 840 ₽/мес</div>
+                                </div>
+                                <button class="btn btn--bordered">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="actions__row">
+                <a href="#" class="actions__item actions__item--high">
+                    <img src="./img/a1.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Скидка 10%</div>
+                        <div class="actions__sub">по госпрограммам</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--high">
+                    <img src="./img/a2.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Комплект шин</div>
+                        <div class="actions__sub">при покупке в подарок</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--high">
+                    <img src="./img/a3.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Кредит от 0%</div>
+                        <div class="actions__sub">на автомобили GEElY</div>
+                    </div>
+                </a>
+
+                <a href="#" class="actions__item actions__item--high">
+                    <img src="./img/a4.jpg" alt="" class="actions__pic">
+                    <div class="actions__textcontent">
+                        <div class="actions__sm">Акции диллера</div>
+                        <div class="actions__lg">Выгодный Trade-in</div>
+                        <div class="actions__sub">со скидкой до 150 000 руб</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="banner__section">
+            <div class="container">
+                <div class="banner">
+                    <h2 class="banner__title">ЭКСПРЕСС-КРЕДИТ</h2>
+                    <div class="banner__body">
+                        <div class="banner__leftpart">
+                            <div class="banner__molrow">
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Ставка от 1,3%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Взнос от 0%</div>
+                                </div>
+                                <div class="molrow">
+                                    <img src="./img/mol.svg" alt="">
+                                    <div class="molrow__txt">Рассмотрение за 20мин.</div>
+                                </div>
+                            </div>
+
+                            <form action="" method="post" class="banner__form">
+                                <input type="text" placeholder="Имя">
+                                <input type="tel" placeholder="+7 (___) ___-__-__">
+                                <button class="btn" type="submit">Получить одобрение</button>
+                            </form>
+                        </div>
+                        <div class="banner__rightpart">
+                            <div class="imgc">
+                                <img src="./img/car2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagebottom">
+            <div class="container">
+                <div class="pagebottom__flex">
+                    <div class="pagebottom__left">
+                        <div class="pagebottom__title">ЕСЛИ У ВАС ОСТАЛИСЬ ВОПРОСЫ?</div>
+                        <div class="pagebottom__sub">Наши менеджеры с радостью помогут Вам.</div>
+                    </div>
+
+                    <form action="" method="post" class="pagebottom__form">
+                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                        <button class="btn btn--white">ПЕРЕЗВОНИТЕ МНЕ</button>
+                    </form>
+                    <img src="./img/girl.png" alt="" class="pagebottom__girl">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="flex spb">
+                    <img src="./img/logo2.svg" alt="" class="footer__logo">
+
+                    <div class="footer__nav">
+                        <a href="models.html">Модели</a>
+                        <a href="credit.html">Кредит</a>
+                        <a href="gos.html">Госпрограммы</a>
+                        <a href="tradein.html">Trade-in</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+
+                    <a href="#modal__backcall" class="btn footer__callbtn" data-fancybox>Обратный звонок</a>
+                    <a href="tel:+74951197533" class="footer__phone">
+                        <div>+7 (495) 119-75-33</div>
+                        <div class="footer__phonesm">Ежедневно с 8:00 до 20:00</div>
+                    </a>
+                </div>
+            </div>  
+            <div class="footer__bottom">
+                <div class="flex spb">
+                    <div class="footer__geelyrow">
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                        <a href="#">Geely Atlas Pro</a>
+                    </div>
+
+                    <div class="footer__address">г. Москва, ул. Обручева, 21А</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.fancybox.min.js"></script>
+    <script src="js/vendor/select2.js"></script>
+    <script src="js/vendor/swiper.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+
+</html>
